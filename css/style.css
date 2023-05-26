@@ -1,10 +1,22 @@
 body{
-		background-color: lightgrey!important;
+		background-color: lightgrey !important;
 }
 .container{
-		background-color: white;!important;
+		background-color: white !important;
 		padding: 0px!important;
 }
 h1{
 font-family: verdana;
+}
+.estudiante{
+	text-align: center;
+border:  1px solid blue;
+}
+.trainee{
+	text-align: center;
+border:  1px solid red;
+}
+.junior{
+	text-align: center;
+border:  1px solid green;
 }
