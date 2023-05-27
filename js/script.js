@@ -20,3 +20,9 @@ switch (categoria){
 }
 document.getElementById("total").innerHTML = valorConDescuento
 }
+function limpiar(){
+    document.getElementById("cantidad").value = NaN;
+    document.getElementById("nombre").value = "";
+    document.getElementById("apellido").value = "";
+    document.getElementById("correo").value = "";
+}
